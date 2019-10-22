@@ -36,8 +36,8 @@
                                              Enables Kubernetes IP finder and setting custom namespace name.
                     -->
                     <bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.kubernetes.TcpDiscoveryKubernetesIpFinder">
-                        <property name="namespace" value="dataservice"/>
-                        <property name="service" value="ignite"/>
+                        <property name="namespaceName" value="dataservice"/>
+                        <property name="serviceName" value="ignite"/>
                     </bean>
                 </property>
             </bean>
